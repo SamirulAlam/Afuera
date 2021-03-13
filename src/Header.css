@@ -1,0 +1,31 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 10px;
+}
+
+.header > h1{
+    font-weight:400;
+}
+
+.header__left{
+    flex:.35
+}
+
+.header__center{
+    flex: .25;
+}
+
+.header__right{
+    flex:.2
+}
+
+.header__right {
+    display:flex;
+}
+
+.header__right > p{
+    margin-right: 10px;
+    margin-left:10px;
+}
