@@ -16,7 +16,9 @@ function Header() {
                 <h1>Discover Flow</h1>
             </div>
             <div className="header__right">
+                <Link to="/about">
                 <p>ABOUT</p>
+                </Link>
                 <p>CONTACT</p>
                 <p>SIGN IN</p>
                 <SearchIcon />

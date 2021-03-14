@@ -11,6 +11,7 @@ import {
 import EventPlan from './EventPlan';
 import Volunteer from './Volunteer';
 import Virtual from './Virtual';
+import About from './About';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       <Router>
       <Header />
         <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
           <Route path="/volunteer">
             <Volunteer />
           </Route>
