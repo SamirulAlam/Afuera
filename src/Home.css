@@ -19,10 +19,47 @@
     right: 0;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    right: 0;
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background: rgba(211, 209, 222, 0.5);
+    border-radius:25px
+  }
+
+  .dropdown-content > p{
+      padding: 5px;
+  }
+
+  .home__icon:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+  }
+
 .home__info{
     display:flex;
     flex-direction: column;
     align-items:center;
+}
+
+.home__info > h1{
+    font-family: Racing Sans One !important;
 }
 
 .home__info > button{

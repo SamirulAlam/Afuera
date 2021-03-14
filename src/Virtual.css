@@ -1,0 +1,48 @@
+.virtual{
+    background-color:#F9ED84;
+    height:90vh;
+    display: flex;
+}
+
+.virtual__left{
+    flex: .55;
+}
+
+.virtual__img1{
+    margin: 20px;
+    border: 15px solid #fff
+}
+
+.virtual__img2{
+    margin-top:-100px;
+    margin-left:300px ;
+    border: 15px solid #fff
+}
+
+.virtual__right{
+    flex:.45;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.virtual__first{
+    text-align: center;
+}
+
+
+.virtual__first> h1{
+    font-weight:400;
+    font-style: italic;
+}
+
+.virtual__second{
+    text-align: center;
+    font-weight: 400;
+}
+
+.virtual__second > h1{
+    font-weight:400;
+    font-style: italic;
+}

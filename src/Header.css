@@ -7,10 +7,16 @@
 
 .header > h1{
     font-weight:400;
+    
 }
 
 .header__left{
     flex:.35
+}
+
+.header__left > a{
+    color: black;
+    text-decoration:none;
 }
 
 .header__center{

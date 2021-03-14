@@ -1,0 +1,15 @@
+.volunteer{
+    height:90vh;
+    background-color: #F9ED84;
+    padding: 20px;
+}
+
+.volunteer__title > h1{
+    color: #fff
+}
+
+.volunteer__cards{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

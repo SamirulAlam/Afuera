@@ -1,0 +1,33 @@
+.eventPlan{
+    display:flex;
+    position:relative;
+}
+
+.eventPlan__title{
+    position: absolute;
+    background-color:#ffffff;
+    opacity: 0.8;
+    color: black;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius:30px;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.eventPlan__left > img{
+    height: 90vh;
+    width: 33vw;
+}
+
+.eventPlan__center > img{
+    height: 90vh;
+    width: 33vw;
+}
+
+.eventPlan__right > img{
+    height:90vh;
+    width: 34vw;
+}
