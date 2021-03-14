@@ -59,12 +59,15 @@
 }
 
 .home__info > h1{
-    font-family: Racing Sans One !important;
+  font-family: 'Racing Sans One', cursive;
+  text-shadow: 4px 4px black;
+  font-size:50px;
 }
 
 .home__info > button{
     color:#ECE380;
     border: 2px solid #fff;
+    font-family: 'Pacifico', cursive;
 }
 
 .home__info > button:hover{

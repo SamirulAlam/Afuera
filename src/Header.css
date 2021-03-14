@@ -3,11 +3,14 @@
     justify-content:space-between;
     align-items:center;
     margin: 10px;
+    
 }
 
-.header > h1{
+.header__center > h1{
     font-weight:400;
-    
+    line-height:50px;
+    font-size:40px;
+    font-family: 'Pacifico', cursive;
 }
 
 .header__left{
@@ -31,7 +34,12 @@
     display:flex;
 }
 
-.header__right > p{
+.header__right > a{
     margin-right: 10px;
     margin-left:10px;
+}
+
+.header__right > a{
+    color: black;
+    text-decoration:none;
 }

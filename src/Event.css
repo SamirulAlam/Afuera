@@ -1,0 +1,73 @@
+.event{
+    background-image: url(https://cdn.discordapp.com/attachments/820174431895814154/820610318677180446/Screen_Shot_2021-03-13_at_3.30.17_AM.png);
+    background-position:center;
+    background-size: cover;
+    height:90vh;
+    display: flex;
+}
+
+.event__title >h1{
+    color: #fff;
+    font-family: 'Racing Sans One', cursive;
+    text-shadow: 3px 3px black;
+    font-size:50px;
+}
+
+.event__left{
+    flex: .5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.left__image > img{
+    height:30vh;
+    width:30vh;
+    border-radius: 50%;
+    border:3px solid #fff
+}
+
+.left__paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:#B9F2AB;
+    border-radius:20px;
+    border:3px solid #fff;
+    width:30vw;
+    height:20vh;
+    text-align:center;
+}
+
+.event__button > button {
+    background-color: #D05233;
+}
+
+.event__right{
+    flex: .5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.right__image > img{
+    height:30vh;
+    width:30vh;
+    border-radius: 50%;
+    border:3px solid #9DD770
+}
+
+.right__paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #DFDFB6;
+    border-radius:20px;
+    border:3px solid #fff;
+    width:30vw;
+    height:20vh;
+    text-align:center;
+}
+

@@ -23,7 +23,8 @@
 
 .card__name{
     color: #D05233;
-
+    font-family: 'Racing Sans One', cursive;
+    font-size: 18px;
 }
 
 .name__blue{
@@ -36,7 +37,12 @@
     color: #fff;  
 }
 
-.button__blue > button{
-    background-color: #488180;
-    color: #fff;
+.card__button > button:hover{
+    background-color: #fff;
+    color:#D05233;  
+}
+
+.button__blue > button:hover{
+    background-color: #fff;
+    color:#488180;
 }

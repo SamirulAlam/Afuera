@@ -1,33 +1,68 @@
 .eventPlan{
-    display:flex;
-    position:relative;
+    height:90vh;
+    background-image:url(https://cdn.discordapp.com/attachments/820174431895814154/820598794412490752/pexels-tim-mossholder-383640.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .eventPlan__title{
-    position: absolute;
-    background-color:#ffffff;
-    opacity: 0.8;
-    color: black;
-    font-size: 30px;
+    color: white;
+    font-family: 'Racing Sans One', cursive;
+    text-shadow: 4px 4px black;
+    font-size:30px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius:30px;
-    top: 0;
-    left: 0;
+   width: fit-content;
     margin: 20px;
+    margin: auto;
+}
+
+.eventPlan__paragraph {
+    background-color:#ffffff;
+    opacity: 0.8;
+    width:80vw;
+    margin:auto;
+    padding:10px;
+    text-align: center;
+    border-radius:10px;
+}
+
+.eventPlan__button{
+    margin: auto;
+}
+
+.eventPlan__button > button{
+    
+    color: black;
+}
+
+.eventPlan__button > a{
+    color: black;
+    text-decoration: none;
+    background-color: #D05233;
+    padding: 10px;
+    
+}
+
+.eventPlan__images{
+    display:flex;
 }
 
 .eventPlan__left > img{
-    height: 90vh;
+    height: 55vh;
     width: 33vw;
 }
 
 .eventPlan__center > img{
-    height: 90vh;
+    height: 55vh;
     width: 33vw;
 }
 
 .eventPlan__right > img{
-    height:90vh;
-    width: 34vw;
+    height:55vh;
+    width: 33vw;
 }

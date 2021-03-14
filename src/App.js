@@ -12,6 +12,8 @@ import EventPlan from './EventPlan';
 import Volunteer from './Volunteer';
 import Virtual from './Virtual';
 import About from './About';
+import Contact from './Contact';
+import Event from './Event';
 
 function App() {
   return (
@@ -22,11 +24,17 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
           <Route path="/volunteer">
             <Volunteer />
           </Route>
           <Route path="/eventPlan">
               <EventPlan />
+          </Route>
+          <Route path="/event">
+            <Event />
           </Route>
           <Route path="/virtual">
               <Virtual />
