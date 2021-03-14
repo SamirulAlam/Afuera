@@ -11,9 +11,8 @@ function Volunteer() {
             <div className="volunteer__cards">
                <div className="volunteers__right">
                <Card
-                    
                     name="Samir"
-                    description="Samir is from Bangladesh and currently majors in Computer Science and he does know anything"
+                    description="Samir is from Bangladesh and currently majors in Computer Science and he does not know anything"
                     image="https://avatars.githubusercontent.com/u/50224886?s=460&u=643672c880852e2f093b0fcc35c0c3f7dc834e6a&v=4"
                 />
                 <Card

@@ -34,7 +34,7 @@ function Event() {
                     <p>Details: We will be visiting the San Francisco Mission Dolores Park! We will have a picnic and be able to enjoy our walks around a beautiful scenery. Please join us if you’re interested!</p>
                 </div>
                 <div className="event__button">
-                    <Button>Join</Button>
+                    <Button>Join Now</Button>
                 </div>
             </div>
         </div>

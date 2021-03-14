@@ -21,17 +21,11 @@
     height:70vh;
 }
 
-.volunteer__left{
-}
-
 .volunteer__center{
     background: #C4C4C4 ;
     opacity:65%;
     padding:50px;
     text-align:center;
-
-}
-
-.volunteer__right{
+    border-radius: 20px;
 
 }
